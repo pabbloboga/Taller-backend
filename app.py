@@ -23,7 +23,7 @@ with app.app_context():
 @app.route("/")
 def index():
     
-    #buscar en la url, el numero de la pagina con un metodo GET
+    #buscar en la url, el numero de la pagina con un metodo GET sds
     page = request.args.get("page", 1)
 
     name = request.args.get("name")
